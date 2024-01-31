@@ -1,0 +1,92 @@
+.sidebar-container{
+    width: 70%;
+    height: 100px;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0 auto;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    transition: all .5s ease-in;
+    z-index: 7;
+}
+
+.overlayy{
+    position: fixed;
+    width: 100%;
+    top: -100%;
+    opacity: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    transition: all .5s ease-in;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 5;
+}
+
+.overlayy-container-active{
+    opacity: 1;
+    top: 0;
+}
+
+.heading-section{
+    position: relative;
+}
+
+.sidebar-container-active{
+    top: 0;
+}
+
+.heading-section img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+}
+
+svg.qanun-close{
+    fill: black;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.qanun-heading{
+    background: #F7F7F7;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    padding: 27px 40px;
+    font-size: 1.5rem;
+    padding-right: 60px;
+}
+
+.qanun-paragraf{
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-container{
+        margin: 0;
+        right: initial;
+        left: initial;
+    }
+
+    .qanun-heading{
+        padding: 27px 35px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .qanun-heading{
+        padding: 27px 15px;
+        font-size: 1.2rem;
+    }
+}

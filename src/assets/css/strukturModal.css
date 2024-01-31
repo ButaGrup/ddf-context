@@ -1,0 +1,174 @@
+.rehberlik-modal-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #424245;
+}
+
+.rehberlik-modal-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #808080;
+}
+
+.rehberlik-modal-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.header-h1 {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 3px;
+  margin: 8px 0;
+  line-height: 27px;
+  text-align: center;
+  color: #424245;
+  margin-bottom: 0;
+}
+
+.header-h2 {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #808080;
+  margin-bottom: 0;
+  margin-bottom: 12px;
+}
+
+.manage-main-cont-str {
+  /* gap: 20px; */
+  /* justify-content: center; */
+  margin-bottom: 5%;
+}
+
+.manage-main-cont-str h1 {
+  padding-left: 0;
+}
+
+.manage-container {
+
+  /* width: 100%!important; */
+  height: auto;
+  position: relative;
+  /* transition: all .7s ease-in-out; */
+  cursor: pointer;
+}
+
+.manage-card-wrapper {
+  width: 100%;
+}
+
+.manage-card-wrapper:hover {
+  background: linear-gradient(159.38deg, #413e3c 0%, #825841 100%);
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition: all 0.7s ease-in-out;
+}
+
+.manage-container:hover .header-h1 {
+  color: #fff;
+}
+
+.manage-container:hover .header-h2 {
+  color: #d5d5d5;
+}
+
+.second-structr {
+  /* width: 300px; */
+  height: 182px;
+  
+  display: flex;
+}
+
+.structur-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+
+.second-str-inner {
+  width: 100%;
+  display: flex;
+  background: #f7f7f7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.manage-card-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+
+.detail-sec {
+  padding: 10px 0;
+}
+
+.second-structr img {
+  width: 40%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+
+
+.struc-det {
+  width: 60%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.struc-det p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #808080;
+}
+
+.struc-det h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #424245;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .manage-main-cont-str {
+        justify-content: center;
+      }
+} */
+
+@media screen and (max-width: 768px) {
+  .manage-main-cont-str {
+    justify-content: center;
+  }
+
+  .manage-main-cont-str h1{
+    text-align: center;
+  }
+
+  .structur-container{
+    justify-content: center;
+  }
+}

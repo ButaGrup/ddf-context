@@ -1,0 +1,24 @@
+.page-item img{
+    width: 40px;
+    height: 28px;
+}
+
+.pagination{
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.page-link{
+    height: 28px;
+    line-height: 15px;
+    border-radius: .375rem;
+    color: #000 !important;
+}
+
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: #fff !important;
+    background: linear-gradient(264.74deg, #825841 11.38%, #3C3C3C 100%)!important;
+    cursor: pointer;
+    border: none!important;
+}

@@ -1,0 +1,146 @@
+.purchase-detail-container {
+    max-width: 940px!important;
+    width: 100%;
+}
+
+.purchase-detail-title {
+    max-width: 620px;
+    width: 100%;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #181918;
+    margin: 35px auto;
+}
+
+.purchase-detail-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #181918;
+}
+
+.purchase-detail-header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    flex-wrap: wrap;
+}
+
+.purchase-detail-header-link li {
+    color: #3e413e;
+    margin-left: 5px;
+}
+
+.purch-detail-date {
+    width: 100%;
+    display: flex;
+}
+
+.purch-detail-date-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.purch-detail-date-left h4 {
+    font-family: Noto-Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    color: #333333;
+}
+
+.purch-detail-date-left span {
+    font-family: Noto-Sans;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 3px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #5B5B5B;
+}
+
+.purch-detail-date-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.project-detail-heading-link a{
+    font-family: Noto-Sans !important;
+}
+
+
+.project-detail-heading-link li{
+    font-family: Noto-Sans !important;
+}
+.purch-detail-date-right h4 {
+    font-family: Noto-Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0;
+    color: #333333;
+}
+
+.purch-detail-date-right span {
+    font-family: Noto-Sans;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 3px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #5B5B5B;
+}
+
+@media screen and (max-width: 768px) {
+    .purch-detail-date-left {
+        gap: 2px;
+    }
+    
+    .purch-detail-date-left h4 {
+        font-size: 13px;
+        width: 40%;
+    }
+    
+    .purch-detail-date-left span {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    
+    .purch-detail-date-right {
+        gap: 2px;
+    }
+    
+    .purch-detail-date-right h4 {
+        font-size: 13px;
+        width: 40%;
+    }
+    
+    .purch-detail-date-right span {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+}
+
+.announce{
+    position: relative;
+}

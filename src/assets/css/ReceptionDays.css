@@ -1,0 +1,15 @@
+.reception-days table td {
+    border: 1px solid #292929;
+    padding: 8px 8px;
+}
+
+.reception-days .news-title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #292929;
+}
+
+.reception-days * {
+    font-size: 15px;
+}

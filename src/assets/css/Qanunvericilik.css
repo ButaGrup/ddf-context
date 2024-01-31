@@ -1,0 +1,17 @@
+.qanunvericilik-overlay {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    z-index: 100;
+}
+
+.qanun-modal-close {
+    cursor: pointer;
+}
+
+.qanun-modal-close button {
+    color: #000;
+}

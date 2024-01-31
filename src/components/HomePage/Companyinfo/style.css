@@ -1,0 +1,138 @@
+.company-info .section-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-img {
+    width: 44%;
+    max-width: 500px;
+    height: 300px;
+    z-index: 1;
+}
+
+.main-info {
+    width: 620px;
+}
+
+.main-info-header {
+    margin-bottom: 62px;
+}
+
+.main-info-header h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.main-info-description {
+    font-weight: 400!important;
+    font-size: 16px!important;
+    line-height: 22px!important;
+    color: #FFFFFF!important;
+}
+
+.main-info-content-rigth{
+    display: flex;
+    /* justify-content: space-around;
+    width: 100%; */
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    align-items: center;
+}
+
+
+
+.work-hour-h{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.work-hours-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-hours-div h3{
+    font-size: 20px !important;
+    color: #ddd !important;
+}
+
+.main-info-content-inner-div{
+    display: flex;
+    align-items: center !important;
+}
+
+.main-info-content>div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main-info-content>div:first-child {
+    margin-bottom: 49px;
+
+}
+
+.main-info-content>div img {
+    margin-right: 20px;
+}
+
+.main-info-content h3 {
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 33px; */
+    height: max-content;
+    margin-top: 2%;
+    color: #ddd;
+    margin-bottom: 16px;
+}
+
+.main-info-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width:921px) {
+    .main-info{
+        width: 75%;
+        position: relative;
+        z-index: 2;
+    }
+    .main-info-header h2{
+        font-size: 28px;
+    }
+    .main-info-header p, .main-info-content p {
+        font-size: 14px;
+    }
+    .main-info-content h3{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .main-info{
+        width: 98%;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+    .section-img {
+        display: none;
+    }
+    .main-info-content>div img {
+        margin-right: 17px;
+    }
+
+    .main-info-content-rigth{
+        gap: 0;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,41 @@
+
+
+.home-slick-wrapper .slick-prev:before, 
+.home-slick-wrapper .slick-next:before {
+    font-size: 22px!important;
+}
+
+.home-slick-wrapper .footer-img-child {
+    padding: 0 5px!important;
+}
+
+.footer-img-parent .slick-prev{
+    left: 0px !important;
+    z-index: 3 !important;
+}
+.footer-img-parent  .slick-next{
+    right: 0;
+}
+
+
+.slick-list {
+    width: 90%!important;
+    margin: 0 auto!important;
+}
+
+.slick-slide div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img-child {
+    display: inline-block;
+    width: 85%!important;
+}
+
+.footer-img-child img{
+    width: 100%;
+    object-fit: contain;
+    height: 90px;
+}

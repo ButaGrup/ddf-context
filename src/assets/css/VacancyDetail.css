@@ -1,0 +1,193 @@
+.vacancy-detail {
+  width: 100%;
+  display: flex;
+}
+
+.vacancy-detail-img {
+  flex: 1;
+}
+
+.vacancy-detail-img img {
+  width: 100%;
+}
+
+.vacancy-detail-container {
+  max-width: 940px !important;
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.vacancy-detail-price {
+  font-size: 16.8px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: rgba(0, 158, 142, 1);
+  gap: 5px;
+}
+
+.vacancy-detail-price span {
+  color: rgba(48, 60, 66, 1);
+}
+
+.empty-vacancy-detail {
+  flex: 1;
+}
+
+.vacancy-detail-informations {
+  width: 100%;
+  padding: 20px;
+  color: rgba(48, 60, 66, 1);
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 3px 3px;
+}
+
+.vacancy-detail-informations p {
+  font-size: 14px !important;
+}
+
+.vacancy-detail-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.vacancy-detail-work-information {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #303c42;
+  margin-top: 30px !important;
+  margin-bottom: 14px !important;
+}
+
+.vacancy-detail-graph p {
+  font-weight: 400;
+  margin-bottom: 0 !important;
+  font-size: 14px;
+}
+
+.vacancy-detail-city div {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 8px !important;
+}
+
+.vacancy-detail-important {
+  padding-right: 80px;
+}
+
+.vacancy-detail-description {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.vacancy-detail-description p,
+.vacancy-detail-description h1,
+.vacancy-detail-description h2,
+.vacancy-detail-description h3,
+.vacancy-detail-description h4,
+.vacancy-detail-description h5,
+.vacancy-detail-description h6,
+.vacancy-detail-description strong,
+.vacancy-detail-description b,
+.vacancy-detail-description ul,
+.vacancy-detail-description li {
+  font-size: 16px;
+}
+
+.vacancy-detail h5 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 34px;
+}
+
+.vacancy-detail-appeal {
+  width: 100% !important;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 3px 3px;
+  width: 380px;
+  padding: 20px 38px;
+}
+
+.vacancy-detail-row {
+  margin-top: 40px !important;
+}
+
+.vacancy-detail-appeal div {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.vacancy-detail-appeal-button {
+  width: 100%;
+}
+
+.vacancy-detail-appeal-button button {
+  width: 100%;
+  height: 52px;
+  background: linear-gradient(91.88deg, #805741 0.16%, #3f3d3c 100.53%);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+}
+
+.vacancy-detail-row1 {
+    margin: 60px 0 51px 0!important;
+}
+
+.vacancy-detail-form input {
+    background: #F5F5F5;
+    border: none;
+    padding: 5px 9px;
+}
+
+.vacancy-detail-form input:focus {
+    outline: 1px solid rgb(180, 180, 180);
+}
+
+.vacancy-detail-form textarea:focus {
+    outline: 1px solid rgb(180, 180, 180);
+}
+
+.vacancy-detail-form textarea {
+    background: #F5F5F5;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 9px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   margin-top: 3px;
+   padding: 6px 12px;
+   cursor: pointer;
+   background: rgb(230,230,230);
+   border: none;
+   border-radius: 39px;
+}
+
+svg.vacancy-detail-file-upload{
+   fill: rgb(230,230,230);
+   width: 15px;
+   height: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .vacancy-detail-img img{
+        display: none;
+    }
+}

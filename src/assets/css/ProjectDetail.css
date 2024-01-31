@@ -1,0 +1,231 @@
+.project-detail {
+    background-color: #181918;
+}
+
+.project-detail-heading {
+    padding: 30px 0 0 0;
+    color: #fff;
+}
+
+.project-detail-container {
+    max-width: 940px!important;
+    width: 100%;
+}
+
+.project-detail-heading-link {
+    display: flex;
+    padding-left: 0;
+}
+
+.project-detail-heading-link span {
+    color: #BFBFBF;
+}
+
+.project-detail-heading-link a {
+    color: #BFBFBF;
+}
+
+.project-detail-heading-link li {
+    color: #A5A5A5;
+}
+
+.project-detail-description {
+    padding: 65px 0 40px 0;
+}
+
+.project-detail-image {
+    max-width: 300px;
+    width: 100%;
+    height: 200px;
+}
+
+.project-detail-image-row {
+    padding-bottom: 95px;
+    border-bottom: 1px solid #825841;
+}
+
+.project-detail-bottom {
+    display: flex;
+    padding: 28px 10px 58px 10px;
+}
+
+.project-detail-bottom-header {
+    width: 50%!important;
+}
+
+.project-detail-bottom2 {
+    padding: 0 0 58px 0;
+}
+
+.project-detail-bottom-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.project-detail-bottom-icon {
+    width: 60px;
+    height: 44px;
+    border: 1px solid #825841;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.project-detail-bottom-image {
+    max-width: 460px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 234px;
+    z-index: 1;
+}
+
+.project-detail-bottom-image img {
+    transition: all 0.3s ease-in;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-detail-bottom-wrapper,
+.project-detail-bottom-wrapper-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.project-detail-bottom-wrapper:nth-last-child(1){
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-detail-bottom-wrapper p,
+.project-detail-bottom-wrapper-1 p {
+    z-index: 10;
+}
+
+.project-detail-bottom h1 {
+    color: #fff;
+}
+
+.project-detail-bottom-wrapper p,
+.project-detail-bottom-wrapper-1 p {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-15px);
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.project-detail-bottom-image:hover img {
+    transform: scale(1.2);
+}
+
+.layihe-slider{
+    position: relative;
+}
+
+.layihe-slider button.slick-next{
+    position: absolute !important;
+    top: -70px !important;
+    right: 18px!important;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.layihe-slider button.slick-prev{
+    position: absolute !important;
+    top: -70px !important;
+    right: 65px !important;
+    left: initial;
+    z-index: 2;
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.slider-img-2{
+    height: 230px;
+    width: 100% !important;   
+    transition: all 0.3s ease-in;
+}
+
+.slick-slider-image:hover .slider-img-2 {
+    transform: scale(1.1);
+}
+
+.slick-prev:before {
+    font-size: 40px!important;
+}
+
+.slick-next:before {
+    font-size: 40px!important;
+}
+
+.slider-description {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    bottom: 50%;
+    margin-left: 20px; 
+    z-index: 10;  
+}
+
+.slick-slider-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.slick-slider-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 5;
+}
+
+.layihe-slider a {
+    width: 97%!important;
+}
+
+@media screen and (max-width: 991.5px) {
+    .slider-img-2 {
+        height: 210px!important;
+    }
+
+    .project-detail-bottom2 {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768.5px) {
+    .slider-img-2 {
+        height: 180px!important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slider-img-2 {
+        height: 210px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider-img-2 {
+        height: 180px!important;
+    }
+}

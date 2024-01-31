@@ -1,0 +1,30 @@
+.musahide{
+    width: 73%;
+}
+
+.mu-contain{
+    margin-bottom: 8px;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.mu-minister{
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+}
+
+.musahide p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #292929;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .musahide{
+        width: 100%;
+    }
+}

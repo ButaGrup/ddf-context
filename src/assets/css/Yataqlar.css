@@ -1,0 +1,183 @@
+.projects {
+  width: 100%;
+  background: #181918;
+}
+
+.projects-container {
+  max-width: 940px !important;
+  width: 100%;
+}
+
+.projects-description {
+  color: #fff;
+}
+
+/* table {
+  color: #fff;
+}
+
+td {
+  border: 0.5px solid #392a22 !important;
+  background: #44403e;
+  border: 0.5px solid #392a22;
+  border-radius: 0px;
+  color: #fff;
+}
+
+th {
+  background: #815841;
+  border: 0.5px solid #392a22 !important;
+}
+
+th:nth-child(1) {
+  border-radius: 8px 0px 0px 0px;
+}
+
+th:nth-child(3) {
+  border-radius: 0px 8px 0px 0px;
+}
+
+td,
+th {
+  padding: 20px 15px;
+}
+
+td:nth-child(2) {
+  width: 200px;
+}
+
+td:nth-child(1) {
+  width: 50px;
+} */
+
+/* .t-head {
+  display: flex;
+} */
+
+
+.pro-cont{
+  color: #fff;
+}
+
+
+
+
+.t-head div,
+.t-body div {
+  padding: 10px;
+  border: 0.5px solid #392a22 !important;
+}
+
+.t-head div{
+  background: #815841;
+  border: 0.5px solid #392A22;
+
+}
+
+.t-body div{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  /* padding-top: 14px; */
+  gap: 30px;
+}
+
+.p-dno{
+  align-items: center;
+}
+
+.t-body{
+  background: #44403E;
+}
+
+.t-head div:nth-child(3){
+  border-radius: 0px 8px 0px 0px;
+}
+
+.t-head div:nth-child(1){
+  border-radius: 8px 0px 0px 0px;
+}
+
+/* .t-head{
+  justify-content: space-between;
+} */
+
+.project-item {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, #43403e 0%, #825841 100%);
+  border-radius: 20px;
+  height: 255px;
+  position: relative;
+  cursor: pointer;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  width: 100%;
+  height: 134px;
+  border-radius: 20px;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.project-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.projects-home-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#gtx-trans{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .t-head{
+    display: none !important;
+  }
+
+  .pr-dname{
+    text-align: center;
+  }
+
+  .pro-cont{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .p-dno , .pr-dname{
+    background-color: #815841;
+  }
+
+
+  .project-item {
+    width: 460px;
+  }
+
+  .project-text {
+    font-size: 20px;
+  }
+}

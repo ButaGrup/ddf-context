@@ -1,0 +1,89 @@
+
+.rehberlik-modal-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #424245;
+}
+
+.rehberlik-modal-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #808080;
+}
+
+.rehberlik-modal-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.header-h1{
+    font-family: Noto-Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 3px;
+    margin: 8px 0;
+    line-height: 27px;
+    text-align: center;
+    color: #424245;
+    margin-bottom: 0;
+}
+
+.header-h2{  
+    font-family: Noto-Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 0;
+    margin-bottom: 12px;
+}
+
+
+.manage-main-cont{
+    gap: 20px;
+    justify-content: center;
+}
+
+.manage-container{
+    /* max-width: 192px !important; */
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* transition: all .7s ease-in-out; */
+    cursor: pointer;
+  }
+
+
+  .manage-container:hover{
+    
+    transition: all .7s ease-in-out;
+  }
+
+
+  .manage-container:hover .header-h1{
+    color: #fff;
+  }
+
+  .manage-container:hover .header-h2{
+    color: #D5D5D5;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .manage-main-cont{
+        justify-content: center;
+    }
+  }

@@ -1,0 +1,586 @@
+.purchase-container {
+  max-width: 940px !important;
+  width: 100%;
+}
+
+.purchase-section{
+  position: relative;
+}
+
+.purchase-right-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.purchase-description {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #181918;
+}
+
+.purchase-announce-header {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purchase-announce-header p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #424245;
+  margin-bottom: 0;
+}
+
+.purchase-announce,
+.purchase-history {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.purchase-announce-item,
+.purchase-history-item {
+  width: 100%;
+  padding: 15px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+
+.purchase-announce-main-item{
+  width: 100%;
+  padding: 15px 10px;
+  cursor: pointer;
+  display: inline-block;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.purchase-announce-main-item:hover {
+  background: linear-gradient(91.88deg, #815841 0.5%, #434245 102.58%);
+}
+
+.purchase-announce-main-item:hover .purchase-announce-main-number,
+.purchase-announce-main-item:hover .purchase-announce-title {
+  color: #fff;
+}
+
+.purchase-announce-item:hover,
+.purchase-history-item:hover {
+  background: linear-gradient(91.88deg, #815841 0.5%, #434245 102.58%);
+}
+
+.purch-left-side{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 60%;
+}
+
+.purch-right-side {
+  display: flex;
+  width: 40%;
+}
+
+.purch-right-side div {
+  width: 50%;
+}
+
+.purchase-announce-start-date,
+.purchase-announce-end-date {
+  width: 100%!important;
+}
+
+.purchase-announce-item:hover .purchase-announce-number,
+.purchase-history-item:hover .purchase-history-number {
+  color: #fff;
+}
+
+.purchase-announce-item:hover .purchase-announce-title,
+.purchase-history-item:hover .purchase-history-title {
+  color: #fff;
+}
+
+.purchase-announce-item:hover .purchase-announce-start-date,
+.purchase-announce-item:hover .purchase-announce-end-date,
+.purchase-history-item:hover .purchase-history-start-date,
+.purchase-history-item:hover .purchase-history-end-date {
+  color: #fff;
+}
+
+.purchase-announce-table-header,
+.purchase-history-table-header {
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.purchase-announce-competition-name,
+.purchase-history-competition-name {
+  width: 60%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.purchase-announce-start,
+.purchase-announce-end,
+.purchase-history-start,
+.purchase-history-end {
+  text-align: center;
+  width: 20%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.purchase-announce-img,
+.purchase-history-img {
+  width: 10%;
+  height: 50px;
+  /* border-radius: 50%; */
+  background: url(../../img/tender\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+}
+
+.purchase-announce-item:hover .purchase-announce-img {
+  background: url(../../img/tender.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.purchase-announce-img img,
+.purchase-history-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.purchase-announce-number,
+.purchase-history-number {
+  width: 4%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* display: flex; */
+  justify-content: center;
+  color: #181918;
+}
+
+.purch-2{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.purch-1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.purch-2 span{
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: justify;
+  color: #ACACAC;
+}
+
+.purchase-announce-main-number{
+  width: 4%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  display: inline-block;
+  color: #181918;
+}
+
+.purchase-announce-start-date,
+.purchase-history-start-date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.purchase-announce-end-date,
+.purchase-history-end-date {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.purch-left-desc{
+  width: 90%;
+}
+
+.purchase-announce-title,
+.purchase-history-title {
+  width: 70%;
+  height: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+  color: #181918;
+}
+
+.purchase-history-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-history-header-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #424245;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 25%);
+    padding: 10px 32px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.purchase-history-header-button p {
+  margin: 0!important;
+  margin-right: 5px!important;
+}
+
+.purchase-history-item {
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #666;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  }
+
+.purchase-history-item:hover {
+  background: linear-gradient(91.88deg, #815841 0.5%, #434245 102.58%);
+}
+
+.purchase-history-item:hover .purchase-history-number {
+  color: #fff;
+}
+
+.purchase-history-item:hover .purchase-history-title {
+  color: #fff;
+}
+
+.empty-purch-link {
+  text-decoration: underline!important;
+  font-weight: 700;
+  color: #815841;
+}
+  
+  .purchase-history-number {
+    width: 6%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    color: #181918;
+  }
+  
+  .purchase-history-title {
+    width: 90%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    color: #181918;
+  }
+
+
+  .purchase-announce-button {
+    margin-left: auto!important;
+    width: 88px!important;
+  }
+
+.purchase-announce-button span {
+  color: #815841;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.purchase-history-button {
+  margin-left: auto!important;
+  width: 88px!important;
+}
+
+.purchase-history-button span {
+  color: #815841;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.start-date{
+  display: none;
+}
+
+.end-date{
+  display: none;
+}
+
+.announce{
+  position: relative;
+}
+
+.right-pic{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15rem;
+}
+
+@media screen and (max-width: 1150px) {
+  img.right-pic {
+    width: 12rem!important;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  img.right-pic {
+    width: 10rem!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img.right-pic{
+      display: none;
+  }
+
+  .purchase-history-table-header {
+    display: none;
+  }
+
+  .purch-left-side {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .purchase-announce-item,
+  .purchase-history-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-direction: column;
+  }
+
+  .purchase-right-img{
+    width: 20%;
+  }
+  .purch-left-side{
+    flex-direction: column;
+  }
+
+  .purch-right-side{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .purch-right-side-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .purchase-announce-title,
+  .purchase-announce-number,
+  .purchase-history-title,
+  .purchase-history-number {
+    font-size: 16px;
+    width: initial;
+  }
+
+  .purch-left-desc{
+    text-align: center;
+  }
+
+  .purchase-announce-start-date,
+  .purchase-history-start-date{
+    font-size: 12px;
+    justify-content: flex-start;
+    width: initial;
+  }
+
+  .end-date {
+    text-align: right;
+  }
+
+  .end-date, 
+  .start-date {
+    color: #ccc;
+    font-size: 14px;
+  }
+
+  .purchase-announce-end-date,
+  .purchase-history-end-date {
+    font-size: 12px;
+    justify-content: flex-end;
+    width: initial;
+  }
+
+  .purchase-announce-img,
+  .purchase-history-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .purchase-announce-row,
+  .purchase-history-row  {
+    padding: 0!important;
+  }
+
+  .purchase-announce-competition-name,
+  .purchase-history-competition-name {
+    width: 63%;
+    font-size: 12px;
+  }
+  
+  .purchase-announce-start,
+  .purchase-announce-end,
+  .purchase-history-start,
+  .purchase-history-end {
+    width: 18%;
+    font-size: 12px;
+    justify-content: flex-end;
+  }
+
+  .start-date{
+    display: block;
+  }
+
+  .end-date{
+      display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .purchase-announce-item,
+  .purchase-history-item {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .purchase-announce-title,
+  .purchase-announce-number,
+  .purchase-history-title,
+  .purchase-history-number {
+    font-size: 16px;
+  }
+
+  .purchase-announce-start-date,
+  .purchase-announce-end-date,
+  .purchase-history-start-date,
+  .purchase-history-end-date {
+    font-size: 10px;
+  }
+
+  .purchase-announce-img,
+  .purchase-history-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .purchase-announce-competition-name,
+  .purchase-history-competition-name {
+    font-size: 10px;
+  }
+  
+  .purchase-announce-start,
+  .purchase-announce-end,
+  .purchase-history-start,
+  .purchase-history-end {
+    font-size: 10px; 
+  }
+
+  .purch-right-side {
+    padding: 10px;
+  }
+
+  .end-date, 
+  .start-date {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .purchase-announce-title,
+  .purchase-announce-number,
+  .purchase-history-title,
+  .purchase-history-number {
+    font-size: 15px;
+  }
+
+  .purch-left-side{
+    text-align: center;
+  }
+
+  .purchase-announce-start-date,
+  .purchase-announce-end-date,
+  .purchase-history-start-date,
+  .purchase-history-end-date {
+    font-size: 10px;
+  }
+
+  .purchase-announce-competition-name,
+  .purchase-history-competition-name {
+    font-size: 9px;
+  }
+  
+  .purchase-announce-start,
+  .purchase-announce-end,
+  .purchase-history-start,
+  .purchase-history-end  {
+    font-size: 9px; 
+  }
+}

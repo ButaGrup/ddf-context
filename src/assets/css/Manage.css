@@ -1,0 +1,805 @@
+.manages-container {
+  max-width: 940px !important;
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.nav-pills button {
+  border-width: 0.3px 0px;
+  border-style: solid;
+  border-color: #424245;
+  border-radius: 0px;
+  position: relative;
+  text-align: left;
+  text-indent: 10px;
+}
+
+.header-bg-respon{
+  flex-direction: column;
+}
+
+a.nav-links:hover{
+  color: #424245 !important;
+}
+
+.nav-links {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #424245;
+  box-sizing: border-box;
+  width: 229px;
+  background: #f7f7f7;
+  border-width: 0.3px 0px;
+  border-style: solid;
+  border-color: #424245;
+  border-radius: 0px;
+  position: relative;
+}
+
+.history,
+.managment,
+.mission,
+.structure {
+  border-bottom: 0px !important;
+}
+
+.nav-pills .nav-links.active,
+.nav-pills .show > .nav-links {
+  background: linear-gradient(
+    90deg,
+    #bcaaa0 0%,
+    rgba(171, 138, 120, 0) 100%
+  ) !important;
+  color: #424245 !important;
+}
+
+.nav-links {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.nav-links.active::after {
+  content: "";
+  width: 5px;
+  height: 53px;
+  background: #424245;
+  border-bottom: 0.1px solid #424245;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.manage-modal {
+  --bs-modal-width: 999px !important;
+}
+
+.modal-dialog {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+}
+
+
+
+.position-sec a:hover {
+  color: #000;
+}
+
+
+
+.manage-headers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.manage-more {
+  width: 127px;
+  height: 38px;
+  background: #fff;
+  border-radius: 5px;
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: absolute;
+  top: 55%;
+  display: none;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+
+.manage-container:hover .manage-more{
+  display: flex;
+}
+
+.manage-container:hover .img-sec{
+  filter: brightness(.6);
+}
+
+
+.reberlik-modal-content {
+  font-size: 1rem;
+}
+
+
+
+.interior-nav {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-bottom: 26px;
+}
+
+.interior-nav a:nth-child(1) {
+  opacity: 0.5;
+  color: black;
+  text-decoration: none;
+}
+
+.structure-png {
+  width: 100%;
+  height: 253px;
+}
+
+/* MISSION VISION TABS */
+.mission-vision-tab-container {
+  width: 620px;
+  background: #f7f7f7;
+  position: relative;
+}
+
+.mission-icon {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.mission-tabs {
+  width: 490px;
+  height: 116.79px;
+  position: absolute;
+  top: 80%;
+  left: 80px;
+}
+
+.mission-vision-img {
+  position: absolute;
+  top: 8px;
+  left: 214px;
+  z-index: 1;
+}
+
+.mission-button {
+  box-sizing: border-box;
+  width: 219.26px;
+  height: 100.79px;
+  background: #fbfbfb !important;
+  color: #424245 !important;
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.2903px;
+  line-height: 26px;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 37.0968px rgba(0, 0, 0, 0.25);
+}
+
+.vision-button {
+  box-sizing: border-box;
+  width: 220.74px;
+  height: 100.79px;
+  background: #fbfbfb !important;
+  border: 1px solid black;
+  color: #424245 !important;
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.2903px;
+  line-height: 26px;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 37.0968px rgba(0, 0, 0, 0.25);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: linear-gradient(
+    104.87deg,
+    #825841 0%,
+    #624b3f 48.47%,
+    #3d3c3c 98.4%
+  ) !important;
+  box-shadow: inset 0px 0px 37.0968px rgba(0, 0, 0, 0.25);
+  color: #fff !important;
+}
+
+.mission-vision-texts {
+  width: 568px;
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #424245;
+  padding: 50px;
+}
+
+.mission-vision-texts p{
+  margin-bottom: 25px;
+}
+
+.rehberlik-modal {
+  display: none;
+  transform: translate(-50%, -83%);
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  width: 999px;
+  background: #ebebeb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #ebebeb;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+.rehberlik-active {
+  display: block;
+  margin-top: 60px;
+}
+
+
+.img-sec img{
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.modal-content-2 {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+#model-closer {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border: none;
+}
+
+img.rehberlik-modal-img {
+  border-radius: 5px;
+  margin: 0 30px;
+  border-radius: 5px;
+  margin: 0 30px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.legislation-section {
+  width: 100%;
+  max-width: 671px;
+}
+
+.legislation-h3 {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #9a9a9a;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.legislation-div {
+  /* height: 102px; */
+  width: 100%;
+  /* max-width: 600px; */
+  background: #ffffff;
+  border: 1px solid #825841;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 32px 12px 32px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+}
+.legislation-div:hover {
+  background: linear-gradient(270deg, #8b5b3d 0%, #614b3f 49.54%, #43403e 100%);
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.legislation-div:hover .div-detail a {
+  color: #fff;
+}
+
+.legislation-section button {
+  border: 1px solid #825841;
+  border-radius: 39px;
+}
+
+.div-icon {
+  margin-right: 5px;
+}
+
+svg {
+  fill: #825841;
+}
+
+.legislation-div:hover svg {
+  fill: #fff;
+}
+
+.div-detail a {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #424245;
+}
+
+.outline-active {
+  background: #825841 !important;
+  border: 1px solid #825841 !important;
+  border-radius: 39px !important;
+  color: #fff !important;
+}
+
+.btn:hover {
+  border: 1px solid black !important;
+}
+
+.history-section {
+  width: 620px;
+  max-width: 100%;
+}
+
+.history-section p img{
+  width: 100%;
+  object-fit: cover;
+  max-height: auto;
+  height: 100%;
+}
+
+p.history-detail {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.history-detail-center {
+  display: flex;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  flex-wrap: wrap;
+}
+
+.history-detail-center p {
+  width: 301px;
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+img.history-bottom-img {
+  width: 620px;
+  height: 330px;
+  max-width: 100%;
+}
+
+img.history-center-pic {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.more-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.more-btn button{
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #825841;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .aside-menu {
+    gap: 24px;
+    margin-top: 10%;
+    justify-content: center;
+  }
+
+
+  .links-div.active::after{
+    margin-top: 1.7% !important;
+  }
+
+  .modal-dialog {
+    top: 70px;
+  }
+
+  .history-section {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .modal-content {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .nav-pills-my{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-pills-my button {
+    width: 100%;
+  }
+
+  .interior-nav{
+    gap: 8px;
+  }
+
+  /* .manage-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+
+
+
+
+  /* .manage-more {
+    position: initial;
+    width: 100%;
+  } */
+
+  .rehberlik-modal {
+    top: 85%;
+  }
+
+  .position-sec {
+    position: initial;
+    width: 100%;
+  }
+
+  .my-link-class{
+    line-height: 30px;
+    color: #fff;
+  }
+
+  .mission-vision-texts {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .rehberlik-modal {
+    width: 95%;
+  }
+
+  img.rehberlik-modal-img {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .modal-content-2 {
+    margin: 0;
+  }
+
+  p.reberlik-modal-content {
+    font-size: 14px;
+  }
+
+  .mission-vision-tab-container {
+    margin-left: -1%;
+    width: 100%;
+  }
+
+  .mission-tabs {
+    width: aut o;
+    left: 30%;
+    top: 85%;
+  }
+
+  .mission-icon {
+    top: 15px;
+    right: 15px;
+  }
+
+  .mission-button {
+    width: 119.26px;
+    height: 70.79px;
+  }
+
+  .vision-button {
+    width: 120.74px;
+    height: 70.79px;
+  }
+
+  .mission-vision-img {
+    display: none;
+  }
+
+  img.rehberlik-sag {
+    width: 25%;
+  }
+
+  .interior-nav {
+    margin-bottom: 0;
+  }
+
+  .manages-container{
+    padding-right: 2px;
+  }
+
+  .history-detail-center{
+    justify-content: center;
+  }
+
+  img.history-bottom-img{
+    width: 98% !important;
+    object-fit: cover;
+  }
+
+  .nav-links{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .modal-container {
+    flex-wrap: wrap;
+  }
+
+  .aside-menu{
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav-pills-my{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .rehberlik-modal {
+    top: 98%;
+  }
+
+  .legislation-div{
+    height: auto;
+  }
+
+  .nav-pills-my {
+    margin-right: 0 !important;
+  }
+
+  .my-link-class{
+    line-height: 30px;
+    /* background-color: #614b3f; */
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-pills-my {
+    width: 420px;
+    margin-top: 15%;
+  }
+
+  .mission-tabs{
+    left: 21%;
+  }
+
+  .my-link-class{
+    line-height: 30px;
+    /* background-color: #614b3f; */
+    color: #fff;
+  }
+
+  .aside-menu {
+    gap: 24px;
+    margin-top: 0%;
+    justify-content: center;
+  }
+
+  .rehberlik-modal {
+    top: 114%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mission-tabs {
+    width: auto;
+    left: 30%;
+    top: 85%;
+  }
+
+  .my-link-class{
+    line-height: 30px;
+    /* background-color: #614b3f; */
+    color: #fff;
+  }
+
+  .rehberlik-modal {
+    top: 115%;
+  }
+
+  .mission-button {
+    width: 100.26px;
+    height: 70.79px;
+  }
+
+  .vision-button {
+    width: 100.74px;
+    height: 70.79px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mission-tabs {
+    width: auto;
+    left: 18%;
+    top: 92%;
+  }
+
+  .rehberlik-modal {
+    top: 210%;
+  }
+
+  .mission-button {
+    width: 100.26px;
+    height: 60.79px;
+  }
+
+  .vision-button {
+    width: 100.74px;
+    height: 60.79px;
+  }
+
+  .my-link-class{
+    line-height: 30px;
+    /* background-color: #614b3f; */
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-pills-my {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button.nav-links {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .mission-tabs{
+    width: auto;
+  }
+}
+
+
+
+.my-link-class{
+  line-height: 50px;
+  color: #8A94A6;
+  width: 100%;
+  padding: 0 15px;
+  height: 50px;
+
+}
+
+.my-link-class:hover{
+  color: #8A94A6;
+}
+
+.links-div.active::after{
+  content: "";
+  width: 2px;
+  height: 25px;
+  margin-top: 5.7%;
+  background: #424245;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.links-div{
+  /* border-width: 0.3px 0px;
+  border-style: solid;
+  border-color: #424245; */
+  position: relative;
+  /* background: #F7F7F7; */
+  width: 100%;
+}
+
+/* .links-div.active{
+  background: linear-gradient(90deg, #BCAAA0 0%, rgba(171, 138, 120, 0) 100%);
+} */
+
+.links-div.active a.my-link-class{
+  color: #825841;
+  font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .manage-more{
+      display: flex;
+  }
+}

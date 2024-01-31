@@ -1,0 +1,18 @@
+.announce-container {
+    max-width: 940px!important;
+    width: 100%;
+}
+
+.announce-header {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .purchase-announce-table-header{
+        display: none;
+    }
+
+}
+
+
+

@@ -1,0 +1,116 @@
+* {
+  font-family: 'Noto Sans';
+}
+
+/* Thin */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Thin.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* Light */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Light.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* Normal */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Medium */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Medium.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Bold */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Black */
+@font-face {
+  font-family: Noto-Sans;
+  src: url(../../fonts/Noto_Sans/NotoSans-Black.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Quantico Family start */
+
+/* Regular */
+@font-face {
+  font-family: Quantico;
+  src: url(../../fonts/Quantico/Quantico-Regular.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Italic */
+@font-face {
+  font-family: Quantico;
+  src: url(../../fonts/Quantico/Quantico-Italic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* BoldI */
+@font-face {
+  font-family: Quantico;
+  src: url(../../fonts/Quantico/Quantico-Bold.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+/* BoldItalic */
+@font-face {
+  font-family: Quantico;
+  src: url(../../fonts/Quantico/Quantico-BoldItalic.ttf) format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Noto-Sans;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.error {
+  color: #fe6e6e;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input.input-error, textarea.input-error {
+  color: #212529;
+  background-color: #fff;
+  border-color: #dc7474;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(252, 129, 129, .25);
+}

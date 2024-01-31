@@ -1,0 +1,78 @@
+.mine-row div:first-child {
+    padding-left: 0 !important;
+}
+
+.mine-row div:last-child {
+    padding-right: 0 !important;
+}
+
+
+
+.mine-box {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 662px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.mine-box .mine-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .4s ease-in;
+
+}
+
+.mine-box:hover .mine-img {
+    scale: 1.2;
+    transition: all .4s ease-out;
+
+}
+
+.mine-content {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.mine-row div:first-child div div {
+    right: 10px;
+}
+
+.mine-row div:last-child div div {
+    left: 10px;
+}
+
+@media screen and (max-width:770px) {
+    .mine-row div:first-child {
+        padding: 0 !important;
+    }
+
+    .mine-row div:last-child {
+        padding: 0 !important;
+    }
+    .mine-content {
+        font-size: 20px;
+    }
+
+    .row-gap {
+        margin-bottom: 20px;
+    }
+
+    .mine-box{
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .mine-box{
+        height: 340px;
+    }
+}

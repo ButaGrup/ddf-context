@@ -1,0 +1,25 @@
+.misVis-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mis-button,
+.vis-button {
+    background-color: #ccc;
+    color: #111;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+}
+
+.accctive {
+    background-color: #825841;
+    color: #fff;
+}
+
+.list-style-disc ul li {
+    list-style-type: disc;
+}

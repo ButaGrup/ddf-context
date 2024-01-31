@@ -1,0 +1,257 @@
+.vacancy {
+    width: 100%;
+    display: flex;
+}
+
+.vacancy-items {
+    width: 100%;
+}
+
+.vacancy-item-link {
+    display: inline-block;
+    min-height: 250px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.vacancy-items-header {
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.vacancy-items-filter {
+    width: 140px;
+    padding: 10px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    -webkit-text-fill-color: rgb(24, 25, 24);
+
+}
+
+.vacancy-items-filter:hover {
+    background-color: #fafafa;
+}
+
+.vacancy-items-filter img {
+    margin-left: 5px;
+}
+
+.vacancy-img {
+    flex: 1;
+}
+
+.vacancy-img img {
+    width: 100%;
+}
+
+.vacancy-item {
+    padding: 20px 20px 9px 20px;
+    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.vacancy-item:hover {
+    background: linear-gradient(137.55deg, #825841 1.11%, #424245 98.47%);
+    color: #fff;
+}
+
+.vacancy-item:hover p {
+    color: #fff;
+}
+
+.vacancy-item:hover .vacancy-more {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.vacancy-container {
+    max-width: 940px!important;
+    width: 100%;
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.empty-vacancy {
+    flex: 1;
+}
+
+.vacancy-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.vacancy-date {
+    font-size: 12px;
+    color: rgba(91, 91, 91, 1);
+}
+
+.vacancy-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vacancy-more {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 93px;
+    height: 29px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(77, 67, 62, 1);
+    padding: 8px 13px;
+    border: 1px solid rgba(77, 67, 62, 1);
+    margin-top: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.vacancy-more img {
+    color: rgba(77, 67, 62, 1);
+}
+
+.vacancy-row {
+    padding: 23px 0!important;
+}
+
+@media screen and (max-width: 1200px) {
+    .vacancy-img img{
+        display: none;
+    }
+}
+
+.vacancy-dropdown {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vacancy-selects {
+    display: flex;
+    align-items: center;
+    margin-top: 6px!important;
+}
+
+.vacancy-selects div select option {
+    padding: 9px!important;
+    font-size: 12px;
+    font-family: 'Noto Sans'
+}
+
+.vacancy-selects input {
+    padding: 6px!important;
+    font-size: 12px;
+    font-family: 'Noto Sans';
+    cursor: pointer;
+    width: 100%!important;
+    font-family: Noto-Sans;
+    border: 1px solid rgba(91, 91, 91, 0.5);
+    color: rgba(91, 91, 91, 0.5);
+    line-height: 30px;
+    font-size: 15px;
+    -webkit-padding-before: 10px;
+    -webkit-padding-after: 10px;
+    -webkit-padding-end: 4px;
+    -webkit-padding-start: 4px;
+}
+
+.vacancy-selects select {
+    width: 100%!important;
+    font-family: Noto-Sans;
+    border: 1px solid rgba(91, 91, 91, 0.5);
+    color: rgba(91, 91, 91, 0.5);
+    font-size: 9px;
+    padding: 9px;
+    -webkit-padding-before: 10px;
+    -webkit-padding-after: 10px;
+    -webkit-padding-end: 4px;
+    -webkit-padding-start: 4px;
+}
+
+.vacancy-items-history {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 23px;
+}
+
+.vacancy-items-history img {
+    margin-left: 5px;
+}
+
+.vacancy-items-history-button {
+    width: 300px;
+    padding: 10px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+    -webkit-text-fill-color: rgb(24, 25, 24);
+}
+
+.vacancy-items-history-button:hover {
+    background-color: #fafafa;
+}
+
+
+.vacancy-selects select{
+    border-radius: 0 !important;
+    color: rgb(135 126 126);
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.vacancy-filter-button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #825841;
+    border-radius: 4px;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+}
+
+.vacancy-filter-button:hover {
+    opacity: 0.9;
+}
+
+.vacancy-description div {
+    background: linear-gradient(
+        180deg,
+      #808080 42.67%,
+      rgba(128, 128, 128, 0) 109.91%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.vacancy-archive-container {
+    max-width: 940px!important;
+    width: 100%;
+}

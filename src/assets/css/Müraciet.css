@@ -1,0 +1,117 @@
+.apply-container {
+  max-width: 940px !important;
+  width: 100%;
+}
+
+.apply-row {
+  margin-top: 39px !important;
+}
+
+.social-link ul {
+  display: flex;
+  gap: 16px;
+  padding-left: 0;
+}
+
+.social-link ul li a {
+  width: 36px;
+  height: 36px;
+  background: #787473;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.apply-form label {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.apply-form input {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
+  border-radius: 4px;
+}
+
+button.form-send {
+  font-family: Noto-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #825841;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.file-upload-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 39px;
+}
+
+svg.file-upload {
+  fill: #fff!important;
+  width: 15px;
+  height: 15px;
+}
+
+
+input.input-error,
+textarea.input-error {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dc7474;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(252, 129, 129, .25);
+}
+
+input.input-error:focus,
+textarea.input-error:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fc8181;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(252, 129, 129, .25);
+}
+
+.error {
+    color: #fe6e6e;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
