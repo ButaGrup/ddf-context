@@ -376,6 +376,13 @@
   top: 0;
   width: 15rem;
 }
+table{
+  border-collapse: collapse;
+}
+th, td{
+  border: 1px  #000;
+  border-width: thin !important;
+}
 
 @media screen and (max-width: 1150px) {
   img.right-pic {

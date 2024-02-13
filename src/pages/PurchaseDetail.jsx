@@ -58,7 +58,7 @@ const PurchaseDetail = () => {
                     </> : <>
                       <Link to="/purchase" style={{ margin: '0 5px' }}>{lang === 'az' ? 'Satınalma' : 'Procurement'}</Link>
                       <span style={{ marginRight: '10px', marginLeft: '10px' }}>&#x2215;</span>
-                      <li>{purchaseTitle} </li>
+                      {/* <li>{purchaseTitle} </li> */}
                     </>
                   }
 
