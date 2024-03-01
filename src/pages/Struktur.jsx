@@ -9,7 +9,7 @@ const Rehberlik = () => {
   // Rəhbərliyin datasını GlobalContextdən yığırıq və global state-ləri gətiririk componentə
   const { lang, rehberlikData } = useContext(GlobalContext);
   const [structureData,setStructureData] = useState([]);
-
+  
   useEffect(() => {
     window.localStorage.setItem('rehberlikData', JSON.stringify(rehberlikData));
   }, [rehberlikData]);
@@ -75,21 +75,27 @@ const Rehberlik = () => {
           <div className="structur-container row">
             {structureData.map((item) => (
               <div className="second-structr col-md-6 mt-3" key={item.id}>
-                <Link to={`/about/structure/${item.id}`} className="second-str-inner">
-                  <img src={item.img} alt="" />
+               <img src={item.img} alt="" />
+                  
+                  <Link to={`/about/structure/${item.id}`} className="second-str-inner"> 
+                    {lang === 'az' ? 'Ətraflı' : 'More'}
+                  </Link>
+
                   <div className="struc-det">
                     <p>{item.sobe}</p>
                     <h2>{item.full_name}</h2>
                     <p>{item.position}</p>
                   </div>
-                </Link>
+                {/* </Link> */}
               </div>
             ))}
           </div>
-        </div>
+        </div> 
       </div>
 
     </>
+
+ 
   );
 };
 

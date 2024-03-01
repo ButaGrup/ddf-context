@@ -67,11 +67,20 @@
   /* transition: all .7s ease-in-out; */
   cursor: pointer;
 }
+.structur-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 20px; */
+}
 
 .manage-card-wrapper {
   width: 100%;
 }
-
+.manage-card-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
 .manage-card-wrapper:hover {
   background: linear-gradient(159.38deg, #413e3c 0%, #825841 100%);
   box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
@@ -88,44 +97,64 @@
 }
 
 .second-structr {
-  /* width: 300px; */
-  height: 182px;
-  
+  position: relative;
   display: flex;
+  height: 182px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  margin-left: 0;
+  padding-left: 0 !important;
 }
 
-.structur-container{
-    display: flex;
-    flex-wrap: wrap;
-    /* gap: 20px; */
+.second-structr img{
+  border-radius: 5px;
+}
+.second-structr:hover img {
+  background: linear-gradient(159.38deg, #413e3c 0%, #825841 100%);
+  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
+ 
+  transition: all 0.5s ease-in-out;
+}
+
+.second-structr:hover img {
+  filter: brightness(65%);
+  transition: all 0.7s ease-in-out;
 }
 
 .second-str-inner {
-  width: 100%;
+ 
+  display: none;
+
+}
+.detail-sec {
+  padding: 10px 0;
+}
+.second-structr:hover .second-str-inner {
   display: flex;
+  background: #f7f7f7;
+ color: #000;
+ font-size: 13px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  position: absolute;
+  top: 45%;
+  left: 40px;
+  padding: 5px 10px;
+
+}
+.second-str-inner{
   background: #f7f7f7;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 
-.manage-card-wrapper {
-  background: #FFFFFF;
-  box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-
+.second-str-inner a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
 }
-
-.detail-sec {
-  padding: 10px 0;
-}
-
-.second-structr img {
-  width: 40%;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-
 
 .struc-det {
   width: 60%;
@@ -152,12 +181,6 @@
   text-align: center;
   color: #424245;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .manage-main-cont-str {
-        justify-content: center;
-      }
-} */
 
 @media screen and (max-width: 768px) {
   .manage-main-cont-str {
